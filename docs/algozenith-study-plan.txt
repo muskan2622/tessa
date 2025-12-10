@@ -1,0 +1,230 @@
+AlgoZenith Cohort Plan (Text Edition)
+Generated for the shared Google Drive curriculum folders.
+
+Program Guardrails
+- Weekly cadence: five instructional days plus one contest/retro day; Sunday is optional rest or peer debugging.
+- Success metrics: sub-20-minute solves on medium tasks, written retros after every contest, and a steadily shrinking backlog of unsolved problems.
+
+Module Overview Table
+Module 1 (Weeks 1-4): Foundations & Math — aim for confident complexity analysis, STL mastery, and refreshed core mathematics.
+Module 2 (Weeks 5-8): Recursion to DP — develop disciplined search patterns, reliable DP states, and a reference optimization catalog.
+Module 3 (Weeks 9-12): Data Structures & Graphs — own segment trees, graph algorithms, and string techniques under contest pressure.
+Module 4 (Weeks 13-16): Expert Patterns — consolidate advanced DP, graph decompositions, and probabilistic/math-heavy tooling.
+
+Operating Rhythm
+Plan → Learn → Implement → Compete → Review. Capture artifacts such as mentor-ready notes, reusable templates, metrics dashboards, and backlog tags each week.
+
+WEEK-BY-WEEK PLAN
+
+Module 1 – Week 1: Foundations and Tooling
+Focus: reset math baseline and reinforce reasoning about constraints.
+Priority topics: time complexity drills, C++ STL/templates, foundational mathematics.
+Daily cadence:
+1. Kickoff, metric review, and baseline solutions for two past AZ problems.
+2. Complexity case studies, derive O bounds for nested loops, build growth-rate cheat sheet.
+3. STL containers (vector, deque, priority_queue) with implementation walkthroughs.
+4. STL algorithms/iterators lab; refactor baseline problems using library calls.
+5. Number theory warmups (gcd, modular arithmetic) plus discrete math recap.
+6. Mixed practice set and retrospective; Sunday optional rest or peer review.
+Deliverables: complexity one-pager, two refactored STL solutions, diagnostic quiz on logarithms/mod reasoning.
+Checkpoint: everyone can estimate limits for N up to 1e6 and pick correct STL primitives quickly.
+
+Module 1 – Week 2: Prefixes, Bits, Sorting, Divide & Conquer
+Focus: stack reusable array tricks while sharpening debugging discipline.
+Priority topics: prefix/difference arrays, bit manipulation, sorting strategies, divide and conquer.
+Daily cadence:
+1. Implement prefix sum template plus difference arrays for range updates.
+2. Bit-masking patterns (lowbit, subset iteration) and targeted CF drills.
+3. Sorting with custom comparators, stability issues, debugging log template.
+4. Divide-and-conquer walkthrough (merge-sort tree intro, closest pair demo).
+5. Integrated lab solving two problems with prefix + bitset combo.
+6. Mock contest with four tasks; post-contest root-cause writeups.
+Deliverables: reusable prefix snippet, bit manipulation flashcards, contest writeup.
+Checkpoint: easy prefix/bit tasks solved in under 12 minutes; zero WA from comparator mistakes.
+
+Module 1 – Week 3: Binary Search & Two Pointers
+Focus: automate monotonic reasoning and subarray scanning.
+Priority topics: binary search on answer, ternary search, two-pointer sweeps, invariants.
+Daily cadence:
+1. Classify binary search types; derive monotonic predicate for three historical tasks.
+2. Implement lower_bound/upper_bound wrappers and ternary search precision handling.
+3. Two-pointer playbook with paper dry runs.
+4. Coding lab for streaming window problems and max subarray variants.
+5. Debug clinic on off-by-one and overflow traps.
+6. Mini-contest plus deep dive; catalog reusable predicates.
+Deliverables: binary search decision tree, two-pointer template with guardrails, contest postmortem.
+Checkpoint: articulate feasibility proofs before coding any binary search.
+
+Module 1 – Week 4: Combinatorics, Number Theory, Misc Techniques
+Focus: round out math tools and cement them via practice.
+Priority topics: combinatorics, number theory, inclusion-exclusion, constructive tricks, practice marathon.
+Daily cadence:
+1. Build factorial/nCr mod prime utilities and precomputation strategy.
+2. Number theory drills (CRT basics, fast exponentiation) with coding exercises.
+3. Misc techniques (constraint fitting, constructive proofs) + whiteboard practice.
+4. Practice rotation with pair-programming reviews.
+5. Timed worksheet mixing combinatorics with prefix/bit insights.
+6. Peer teaching session where each member explains a tricky concept.
+Deliverables: math helper module, recorded lightning talk per student, practice log with accuracy/time figures.
+Checkpoint: solve nCr up to 1e6 confidently and explain when to use CRT.
+
+Module 2 – Week 5: Brute Force, Recursion, Meet-in-the-Middle
+Focus: develop disciplined search patterns and pruning heuristics.
+Priority topics: brute force baselines, recursion hygiene, meet-in-the-middle, sweep line intuition.
+Daily cadence:
+1. Start with brute-force baseline and identify pruning levers.
+2. Deep recursion session (call stack visualization, memoization choices).
+3. Meet-in-the-middle subset-sum lab and complexity comparison.
+4. Sweep-line intro with event sorting applied to geometry-lite tasks.
+5. Mixed assignment requiring two strategies per problem.
+6. Reflection and backlog triage.
+Deliverables: brute-force-to-optimized checklist, MITM template doc, sweep-line pitfalls summary.
+Checkpoint: explain when MITM beats pure recursion and estimate memory footprint.
+
+Module 2 – Week 6: Greedy + DP Launch (AZ Contest 7 & 8)
+Focus: bridge greedy proofs to initial DP states while keeping contest cadence.
+Priority topics: greedy exchange arguments, classic 1D/2D DP, contest readiness.
+Daily cadence:
+1. Catalog greedy patterns and prove correctness.
+2. Fail-fast session finding counterexamples for weak greedy hypotheses.
+3. DP basics using coin change and knapsack.
+4. DP debugging lab with memory optimizations.
+5. Contest warm-up problems plus strategy talk.
+6. Run AZ Contest 7 & 8; capture metrics and review.
+Deliverables: greedy proof rubric, DP state catalog page, contest analytics sheet.
+Checkpoint: DP transitions written before coding; greedy proofs include invariants.
+
+Module 2 – Week 7: LR DP States & Mixed Practice
+Focus: scale DP thinking to prefix/suffix combos and stress testing.
+Priority topics: left-right DP, path reconstruction, stress harnesses.
+Daily cadence:
+1. Introduce LR DP (prefix best + suffix best) with examples.
+2. Implement reconstruction and trace outputs.
+3. Mixed DP practice with peer reviews.
+4. Write stress-test harness and random input generators.
+5. Case study of DP pitfalls with remedial tasks.
+6. Unrated mini contest featuring LR states.
+Deliverables: LR DP template, stress-test script, mini-contest scoreboard insights.
+Checkpoint: LR DP implementation under 25 minutes including reconstruction.
+
+Module 2 – Week 8: DP Optimizations
+Focus: keep DP feasible for large constraints with advanced techniques.
+Priority topics: divide-and-conquer DP, convex hull trick, bitset speedups, memory compression.
+Daily cadence:
+1. Overview of optimization catalog and selection rubric.
+2. Divide-and-conquer DP derivation + workshop.
+3. Convex hull trick and Li Chao tree hands-on.
+4. Bitset/SOS DP practice; evaluate memory/time trade-offs.
+5. Optimization showdown: refactor naive DP to pass tighter limits.
+6. Capstone review and revision planning.
+Deliverables: optimization decision matrix, two refactored problems, constraint-analysis checklist.
+Checkpoint: justify optimization choices with numeric estimates before coding.
+
+Module 3 – Week 9: Segment Trees + AZ202 Contests 11 & 12
+Focus: master range queries and contest application.
+Priority topics: segment tree basics, lazy propagation, iterative trees, contest review.
+Daily cadence:
+1. Build base segment tree and visualize recursion tree.
+2. Lazy propagation deep dive with update/query walkthroughs.
+3. Iterative segment tree vs Fenwick comparisons.
+4. Live-session replication focusing on bugs.
+5. Practice rotation on sums/minimums/k-th queries.
+6. Run AZ202 Contest 11 & 12; round-table analysis.
+Deliverables: segment tree template with debug toggles, lazy-propagation diagram set, contest debrief.
+Checkpoint: no TLEs; able to extend tree to custom structs within one session.
+
+Module 3 – Week 10: Graph Algorithms & Practice
+Focus: traverse graphs, shortest paths, MST, and heavy practice.
+Priority topics: DFS/BFS, shortest paths (Dijkstra, 0-1 BFS, Bellman-Ford), Union-Find & MST, practice problems.
+Daily cadence:
+1. DFS/BFS refresh plus components lab.
+2. Dijkstra/0-1 BFS/Bellman-Ford comparison with cost modeling.
+3. Union-Find, MST (Kruskal, Prim) and DSU optimizations.
+4. Problem set on multi-source shortest paths and DSU-on-tree.
+5. Practice chamber from Drive folder 4.
+6. AZ Contest 13 & 14 simulation followed by VOD review.
+Deliverables: graph algorithm crib sheet, DSU implementation with rollback, contest review form.
+Checkpoint: derive complexity for each path algorithm and justify DSU usage including disconnected cases.
+
+Module 3 – Week 11: String Algorithms, Trie DS, Contests 15 & 16
+Focus: linear string processing and supporting data structures.
+Priority topics: prefix-function/KMP, Z-function, trie/bitwise trie, suffix structure overview.
+Daily cadence:
+1. Build prefix-function and Z-function with manual traces.
+2. KMP applications plus constraint labs.
+3. Trie and bitwise trie for XOR queries, discuss memory trade-offs.
+4. Optional suffix array/automaton overview for stretch goals.
+5. Practice block mixing string DP and tries.
+6. Run AZ Contest 15 & 16; annotate tricky string tasks.
+Deliverables: string algorithm summary with diagrams, trie implementation for XOR/lexicographic queries, contest insight doc.
+Checkpoint: prefix-function implemented correctly on first attempt; trie memory fits limits.
+
+Module 3 – Week 12: Digit + Tree DP, Contests 17 & 18
+Focus: blend combinatorics with structural DP for high-difficulty tasks.
+Priority topics: digit DP templates, tree DP with rerooting, advanced contest practice.
+Daily cadence:
+1. Digit DP framework (position, tight, sum states) workbook.
+2. Multi-constraint digit DP plus memoization optimizations.
+3. Tree DP introduction with rerooting technique.
+4. Apply tree DP to paths, independent sets, rerooting sums.
+5. Focused drilling with code reviews.
+6. AZ Contest 17 & 18 emphasizing state planning.
+Deliverables: digit DP skeleton with annotations, rerooting explanations, contest summary of error categories.
+Checkpoint: state planning under 10 minutes; transitions validated manually before runtime tests.
+
+Module 4 – Week 13: Advanced Tree DP, Bitmask DP, Revision
+Focus: polish DP depth then dedicate time to structured revision.
+Priority topics: heavy tree DP, bitmask DP, DP revision week.
+Daily cadence:
+1. Explore centroid and virtual-tree DP patterns.
+2. Bitmask DP (TSP-style) plus complexity analysis.
+3. Combine tree + bitmask thinking for hybrid problems.
+4. Revision block targeting weakest areas per dashboard.
+5. Peer instruction on revised topics.
+6. Cumulative DP checkpoint quiz and reflection.
+Deliverables: bitmask DP template, personal revision doc with action plans, quiz scorecard.
+Checkpoint: confidence ratings for each DP category documented and tracked.
+
+Module 4 – Week 14: Integration & Mock Interviews (Buffer)
+Focus: use gap for integration, interviews, backlog cleanup.
+Priority topics: backlog problems, mock interviews, systems thinking.
+Daily cadence:
+1. Audit open tasks and tag reasons for revisit.
+2. Run one 60-minute mock interview per student (DP/graphs).
+3. Implement fixes stemming from mock feedback.
+4. Optional stretch problems from external judges.
+5. Collaborative debugging dojo on hardest unsolved question.
+6. Publish progress journal and adjust remaining plans.
+Deliverables: mock interview feedback forms, reopened problem list with remediation strategy, progress journal.
+Checkpoint: backlog under five open problems; interview feedback shows communication improvements.
+
+Module 4 – Week 15: Bridges, SCC, DFS Tree, Binary Lifting
+Focus: advanced graph decompositions and tree powering techniques.
+Priority topics: bridge/articulation detection, strongly connected components, DFS tree applications, binary lifting.
+Daily cadence:
+1. Derive Tarjan-style bridge/cutpoint algorithm with diagrams.
+2. SCC via Kosaraju/Tarjan and complexity analysis.
+3. DFS tree usage (bridge tree collapse, SCC DAG) on sample tasks.
+4. Binary lifting for LCA and k-th ancestor queries.
+5. Practice set combining bridges and LCA.
+6. Review circle to finalize implementations.
+Deliverables: graph decomposition notebook, binary lifting utilities integrated into template repo, annotated SCC+DP solution.
+Checkpoint: bridge/SCC solutions accepted on first submission; binary lifting ready for reuse.
+
+Module 4 – Week 16: Probability, Matrix Expo, Game Theory, Contests 21 & 22
+Focus: conclude with math-heavy topics and final contest push.
+Priority topics: probability & expectation, matrix exponentiation, game theory, AZ Contest 21 & 22.
+Daily cadence:
+1. Probability refresh (linearity of expectation, variance) with coding tasks.
+2. Matrix exponentiation for linear recurrences; implement fast power template.
+3. Impartial game theory (Grundy numbers) and sample problems.
+4. Integrative lab combining matrix methods with DP.
+5. Pre-contest systems check and drilling.
+6. AZ Contest 21 & 22; final retrospective and celebration.
+Deliverables: probability cheat sheet, matrix exponentiation module tested against Fibonacci/DP transitions, final contest retrospective with growth metrics.
+Checkpoint: students articulate modeling steps for probability problems and complete contests without conceptual blockers.
+
+Final Recommendations
+- Document unresolved questions every Friday and schedule help early.
+- Keep contest writeups in the shared folder for easy auditing.
+- Use the buffer week to clear blockers, rehearse interviews, and revisit analytics before the final advanced topics.
